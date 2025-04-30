@@ -1,12 +1,12 @@
 # Exp.No:2e  
 ## SEB - COMPUTING POWER
 
----
+
 
 ### AIM  
 To write a Python program to compute the power of a given number using an appropriate built-in function.
 
----
+
 
 ### ALGORITHM
 
@@ -17,12 +17,17 @@ To write a Python program to compute the power of a given number using an approp
 5. Print the result using the `print()` function, displaying the power in a formatted output.  
 6. Terminate the program.
 
----
 
 ### PROGRAM
 
-```
-```
+x=int(input()) <br />
+y=int(input()) <br />
+z=pow(x,y)  <br />
+print(z) 
+
 ### OUTPUT
 
+![Screenshot 2025-04-30 094127](https://github.com/user-attachments/assets/94bb2b6d-60b5-44e1-baee-aa89a1d3e803)
+
 ### RESULT
+Thus,the given python program is implemented and executed sucessfully.
