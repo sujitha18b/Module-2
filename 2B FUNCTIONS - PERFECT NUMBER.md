@@ -1,32 +1,56 @@
 # Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
+## FUNCTIONS - FACTORIAL
 
 ### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
-
----
+To write a Python program to define a function that returns factorial of a number
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
+1.Start
 
----
+2.Define a function called factorial(n)
+
+3.Inside the function:
+
+4.If n is 0 or 1:
+
+5.Return 1 (since 0! = 1! = 1)
+
+6.Otherwise:
+
+7.Initialize a variable result = 1
+
+8.For i from 2 to n:
+
+9.Multiply result by i → result = result * i
+
+10.Return result
+
+11.Call the function with a number and print the result
+
+12.End
+
+
 
 ### PROGRAM
-```
-#Reg.No:
-#Name:
-#Add your Code Here
 
-```
+def factorial(num):     <br />
+    if num == 1 or num == 0:   <br />
+        return 1   <br /> 
+    else:    <br />
+        return num * factorial(num-1)     <br />
+
+num=int(input())   <br />
+print(f"Factorial is {factorial(num)}")   <br />
+        
+
+
 ### OUTPUT
 
+
+![Screenshot 2025-04-30 091201](https://github.com/user-attachments/assets/5fb510f7-4135-4135-9f22-5fb8e04e5c51)
+
+
+
 ### RESULT
+Thus,the given python program is implemented and executed sucessfully.
